@@ -1,0 +1,51 @@
+*{
+	font-family: Arial;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+header
+{
+	height: 170px;
+	width: 100%;
+	border: 1px solid rgb(235,235,235);
+	
+}
+
+#entete-connection
+{
+	display: inline-block;
+	height: 80px;
+	width: 130px;
+	padding-bottom: 29px;
+	padding-left: 810px;
+}
+
+#logo
+{
+	height: 170px;
+	width: 170px;
+	float: left;
+	padding-bottom: 3px;
+}
+
+header h1
+{
+	height: 57px;
+	width: 190px;
+	padding-left: 400px;
+	padding-top: 30px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+
+}
+
+header div h3
+{
+	text-decoration: none;
+	color: black;
+	border: 1.5px solid lime;
+	border-radius: 5px;
+	
+}
+

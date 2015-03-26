@@ -36,6 +36,7 @@ header h1
 	
 }
 
+/* bouton inscription & se connecter */
 header h3
 {
 	display: inline-block;
@@ -44,16 +45,19 @@ header h3
 	float: right;
 	border-radius: 2px;
 	border: 2px solid black;
-	margin-right: 20px;
+	list-style-type: none;
+	color: black;
 }
 #connection
 {
 	margin-top: 35px;
+	margin-right: 20px;
 }
 #inscription
 {
-	margin-top: 8px;
-	margin-left:55px;	
+	margin-top: 75px;
+	margin-right: 0px;
+	
 }
 
 body
@@ -63,21 +67,21 @@ body
 	background-color: gray;
 }
 
-nav
-{
-	height: 50px;
-	width: 100%;
 }
-nav li
+
+nav ul li
 {
+	width: 70%;
+	text-decoration: none;
 	display: inline-block;
 	list-style-type: none;
-	line-height: 180px;
+	margin-left: 20px;
+	height: 180px;
+	text-align: inline;
 }
 .barre-nav
 {
-	display: block;
-	height:100px;
+	display: inline-block;
 	text-decoration: none;
 	color: black;
 }
@@ -88,6 +92,7 @@ footer
 aside
 {
 	float:right;
+	border-top: 10px;
 	margin-right: 40px;
 	margin-top: 40px;
 }
