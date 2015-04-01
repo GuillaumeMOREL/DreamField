@@ -1,0 +1,183 @@
+body{
+	margin:0;
+	padding: 0;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+}
+div{
+	display: block;
+}
+#container{
+	margin:auto;
+	width:1000px;
+}
+header{
+	height:210px;
+	width: 100%;
+}
+
+#partie_sup_header{
+	width: 100%;
+	height:190px;
+	margin: 0 auto;
+}
+#logo{
+	display: inline-block;
+	height: 190px;
+	width: 190px;
+
+}
+
+#acces_compte{
+	display: inline-block;
+	height: auto;
+	margin:0;
+	vertical-align: top;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+.connection_inscription_panier{
+	margin-right: 22px;
+	color: limegreen;
+	font-size: 13px;
+	text-transform:uppercase;
+	font-family: helvetica;
+	letter-spacing: 1px;
+}
+#DREAMFIELD{
+	display: inline-block;
+	text-align: center;
+	height: auto;
+	margin: 0;
+	width:400px;
+	letter-spacing: 3px;
+	line-height: 190px;
+	vertical-align: top;
+}
+#partie_inf_nav{
+	width: 100%;
+
+}
+#nav{
+	height: 20px;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	border-bottom: 1px gray solid;
+	padding-bottom: 3px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+div li a{
+	padding:0 17px;
+	font-size: 13px;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#logo_recherche{
+	height: 20px;
+	width: 20px;
+	}
+
+#major_container{
+	height: 1000px;
+	width: 100%;
+	display: block;
+	padding-top: 20px;
+
+}
+#bandeau_recherche{
+	height: 370px;
+	width: 100%;
+	line-height: 510px;
+	border-bottom: 1px gray solid;
+	background: url();
+}
+div h3{
+	line-height: 80px;
+	padding-left: 270px;
+	font-family: helvetica;
+	font-size: 28px;
+	letter-spacing: 2px;
+	color: limegreen;
+	height: auto;
+}
+#fruits, #legumes, #regions{
+	letter-spacing: 1px;
+	border: 1px solid gray;
+	border-radius: 15px;
+	text-align: center;
+	line-height: 200px;
+	padding: 13px;
+	font-family: helvetica;
+	font-size: 20px;
+	margin: 100px;
+
+}
+#categorie_recherche{
+	height:100px;
+	width: 100%;
+	line-height: 400px;
+	padding-left: 60px;
+}
+
+#bandeau_promotions a{
+	font-family: helvetica;
+	font-size: 28px;
+	letter-spacing: 2px;
+	color: limegreen;
+	height: auto;
+	line-height: 40px;
+}
+#bandeau_promotions{
+	height:330px;
+	width: 100%;
+	border-bottom: 1px gray solid;
+	padding-left: 30px;
+}
+#description_association{
+	height: 330px;
+	width: 100%;
+	border-bottom: 1px black solid;
+	display: block;
+}
+
+footer{
+	height: 30px;
+	width:100%; 
+	float: left;
+	width: 100%;
+	padding: 40px 0px;
+	margin-top: 30px;
+	text-align: center;
+	background-color: rgb(233,233,237);
+}
+.logo_reseaux_sociaux{
+	display: block;
+	height: 20px;
+	width: 20px;
+	padding: 15px;
+} 
+#texte_footer{
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 10px;
+	font-family: helvetica;
+
+}
+#image_footer{
+	display: block;
+	margin-bottom: 10px;
+}

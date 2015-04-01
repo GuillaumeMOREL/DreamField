@@ -15,10 +15,11 @@ header
 #entete-connection
 {
 	display: inline-block;
-	height: 80px;
+	height: 170px;
 	width: 130px;
-	padding-bottom: 29px;
-	padding-left: 810px;
+	margin: 0;
+	margin-top: 10px;
+	vertical-align: top;
 }
 
 #logo
@@ -28,24 +29,58 @@ header
 	float: left;
 	padding-bottom: 3px;
 }
-
+#lienLogo
+{
+	display: inline-block;
+	height: 170px;
+	width:170px;
+	margin: 0;
+	padding: 0;
+}
 header h1
 {
-	height: 57px;
-	width: 190px;
-	padding-left: 400px;
-	padding-top: 30px;
-	margin-bottom: 0px;
-	margin-right: 0px;
+	display: inline-block;
+	width:60%;
+	height: 170px;
+	margin: 0;
+	vertical-align: middle;
+	text-align: center;
 
 }
-
+a{
+	text-decoration: none;
+}
 header div h3
 {
-	text-decoration: none;
+	
 	color: black;
-	border: 1.5px solid lime;
+	border: 1.5px solid limegreen;
 	border-radius: 5px;
+	height:30px;
 	
 }
+nav{
+	height:70px;
+}
+nav ul{
+	text-align: center;
+}
+nav li{
+	display: inline;
+	list-style-type: none;
+	height: 50px;
+}
+nav a{
+	display: inline-block;	
+	text-decoration: none;
+	color: black;
+	border-right:1px solid limegreen; 
+	border-left: 1px solid limegreen;
+	padding: 4px; 
+	display: inline;
+	height:50px;
+
+}
+
+
 

@@ -1,0 +1,89 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+}
+div{
+	display: block;
+}
+header{
+	float: left;
+	height:190px;
+	max-width;
+	position:relative;
+	display: block;
+}
+
+#partie_sup_header{
+	float:left;
+	max-width;
+	margin: 0 auto;
+}
+#logo{
+	float: left;
+	height: 150px;
+	width: 150px;
+
+}
+
+#acces_compte{
+	float: right;
+	margin: 60px 0px 0px 540px;
+}
+
+.connection_inscription_panier{
+	float: left;
+	margin-right: 22px;
+	height: auto;
+	width: auto;
+	color: limegreen;
+	font-size: 13px;
+	text-transform:uppercase;
+	font-family: helvetica;
+	letter-spacing: 1px;
+
+}
+
+#partie_inf_nav{
+	width: 100%;
+/*	max-width: 1000px;
+	margin:0 auto; */
+}
+
+#DREAMFIELD{
+	float: left;
+	position: relative;
+	width: 190px;
+	height: 35px;
+	position: 20px 0px 0px 0px;
+	margin: 0px 0px 0px 450px;
+	letter-spacing: 3px;
+	/*clear:both; */
+}
+
+#nav{
+	float: left;
+	height: auto;
+	width: 100%;
+	margin: 40px 0px 0px 0px;
+	text-align: center;
+	border-bottom: 1px gray solid;
+	padding-bottom: 3px;
+}
+
+div li{
+	height: auto;
+	display: inline-block;
+}
+
+div li a{
+	display: block;
+	padding:0 17px;
+	font-size: 15px;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
