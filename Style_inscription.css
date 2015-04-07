@@ -96,21 +96,29 @@ div li a{
 	margin-left: 5%;
 }
 .parcourir{
-	margin-left: 5%
+	margin-left: 5%;
 }
 form{
-	margin-left: 40%;
+	margin-left: 50%;
 	display:inline-block;
+
 }
 label{
 	width: 100px;
 	float: left;
 }
+
+.champ{
+	border:1px solid;
+	border-radius:5px;
+}
+
 .grand{
 	width: 300px;
 }
 .valider{
 	margin-left: 50%;
+
 }
 
 /*//////////*/

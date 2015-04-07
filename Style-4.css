@@ -169,7 +169,8 @@ footer{
 	height: 20px;
 	width: 20px;
 	padding: 15px;
-} 
+}
+
 #texte_footer{
 	text-align: center;
 	letter-spacing: 1px;
@@ -177,7 +178,32 @@ footer{
 	font-family: helvetica;
 
 }
+
 #image_footer{
 	display: block;
 	margin-bottom: 10px;
+}
+
+form #search{
+	width: 190px;
+}
+
+.search_data{
+	border:1px solid;
+	height:20px;
+	border-radius: 8px;
+	font-size: 12px;
+}
+
+#search .search_data{
+	padding-top: 3px;
+}
+
+a #logo-recherche{
+	height:20px;
+	width:20px;
+}
+
+a .loupe{
+	padding:2px 2px 2px 2px;
 }

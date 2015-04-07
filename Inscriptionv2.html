@@ -47,55 +47,57 @@
 <form method="post" action="traitement.php">
 <p>
             <label  for="prenom">Prénom :</label>
-            <input type="text" name="prenom" id="prenom" placeholder="Ex : Jérémy" size="30" maxlength="10" />
+            <input type="text" name="prenom" id="prenom" class="champ" placeholder="Ex : Jérémy" size="30" maxlength="10" />
             <br />
             <br />
             <label for="nom">Nom :</label>
-            <input type="text" name="nom" id="nom" placeholder="Ex : Pineau" size="30" maxlength="10" />
+            <input type="text" name="nom" id="nom" class="champ" placeholder="Ex : Pineau" size="30" maxlength="10" />
             <br />
             <br />
             <label for="adresse">Adresse :</label>
-            <input type="text" name="adresse" id="adresse" size="30" placeholder="Ex :2 bis rue du long des bois"/>
+            <input type="text" name="adresse" id="adresse" class="champ" size="30" placeholder="Ex :2 bis rue du long des bois"/>
             <br />
             <br />
             <label for="codepost"> Code postal :</label>
-            <input type="number" name="codepost" id="codepost" placeholder="Ex : 78690" min="10000" max="96000"/>
+            <input type="number" name="codepost" id="codepost" class="champ" placeholder="Ex : 78690" min="10000" max="96000"/>
             <br />
             <br />
             <label for="ville">  Ville :</label>
-            <input type="text" name="ville" id="ville" placeholder="Ex :St Rémy l'honoré "  size="30" />
+            <input type="text" name="ville" id="ville" class="champ" placeholder="Ex :St Rémy l'honoré "  size="30" />
             <br />
             <br />
             <label for="mail"> Email :</label>
-            <input type="email" name="mail" id="mail" size="30" placeholder="Ex :jeremail " />
+            <input type="email" name="mail" id="mail" class="champ" size="30" placeholder="Ex :jeremail " />
             <br />
             <br />
             <label class="grand" for="tel"> Numero de telephone :</label>
-            <input type="tel" name="tel" id="tel" maxlength="10" minlength="10" placeholder="Ex :le 1"/>
+            <input type="tel" name="tel" id="tel" class="champ" maxlength="10" minlength="10" placeholder="Ex :le 1"/>
             <br />
             <br />
             <label class="grand" for="pass">Mot de passe :</label>
-            <input type="password" name="pass" id="pass" minlength="6" /input>
+            <input type="password" name="pass" id="pass" class="champ" minlength="6" /input>
             <br />
             <br />
             <label class="grand" for="passverif">Confirmez votre mot de passe :</label>
-            <input type="password" name="passverif" id="passverif" minlength="6"/>
+            <input type="password" name="passverif" id="passverif" class="champ" minlength="6"/>
             <br />
             <br />
-            <input type="checkbox" name="conditions" id="conditions" />
+            <input type="checkbox" name="conditions" id="conditions"/>
             <label class="grand" for="conditions">j'accepte les <a href="">conditions d'utilisation</a></label>
             <br />
             <br />
-        </p>
-        <p class="valider">Appuyez sur valider pour confirmer l'inscription</p>
-        <br />
-      <input class="valider" type="submit" value="Valider mon inscription" />
-  </form>
+</p>
   
+  </form>
   <p class="parcourir" > Ajouter une photo de profil (JPG, PNG ou GIF | max. 15 Ko) :</p>
   <form class="parcourir" method="post" action="photo.php" enctype="multipart/form-data">
      <input type="file" name="photo" id="photo" />
   </form>
+
+        
+        <p class="valider">Appuyez sur valider pour confirmer l'inscription</p>
+        <br />
+      <input class="valider" type="submit" value="Valider mon inscription" />
 
 
 <footer>
