@@ -35,7 +35,7 @@
             <li><a href="forum.html">Forum</a></li>
             <li><a href="mon-compte.html">Mon compte</a></li>
             <li><a href="aide.html">Aide</a></li>
-            <li><a  href="recherche_utilisateur.html"><img src="logo-recherche.png" id="logo_recherche"/></a></li>
+            <li><a href="recherche_utilisateur.html"><img src="logo-recherche.png" id="logo_recherche"/></a></li>
          </div>
         </ul>
      
@@ -86,19 +86,15 @@
             <label class="grand" for="conditions">j'accepte les <a href="">conditions d'utilisation</a></label>
             <br />
             <br />
-</p>
-  
-  </form>
+              
   <p class="parcourir" > Ajouter une photo de profil (JPG, PNG ou GIF | max. 15 Ko) :</p>
   <form class="parcourir" method="post" action="photo.php" enctype="multipart/form-data">
      <input type="file" name="photo" id="photo" />
   </form>
-
-        
-        <p class="valider">Appuyez sur valider pour confirmer l'inscription</p>
-        <br />
-      <input class="valider" type="submit" value="Valider mon inscription" />
-
+  </p>
+        <!--<p class="valider" >Appuyez sur valider pour confirmer l'inscription</p>-->
+        <input class="valider" type="submit" value="Valider mon inscription"/>
+</form>
 
 <footer>
   <div id="container">
