@@ -116,7 +116,7 @@ label{
 .grand{
 	width: 300px;
 }
-.valider [type= "submit"]{
+.valider {
 	margin-left: 50%;
 
 }
