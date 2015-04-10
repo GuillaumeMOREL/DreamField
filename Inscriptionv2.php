@@ -8,15 +8,15 @@
 
 
 <body>
-<!--<header>
+<header>
   
 <div id="partie_sup_header">
   <div id="container">
       <a href="accueil.html"><img src="logo.png" id="logo"/></a>
  
       <a id="DREAMFIELD" href="accueil.html"><h1> DreamField </h1></a>
-      <div id="acces_compte">
-      <a class="connection_inscription_panier" href="connection.html">Se connecter</a>
+    <div id="acces_compte">
+       <a class="connection_inscription_panier" href="connection.html">Se connecter</a>
       <a class="connection_inscription_panier" href="inscription.html">S'inscrire </a>
       <a class="connection_inscription_panier" href="panier.html"> Mon Panier (0) </a>
     </div>
@@ -41,16 +41,16 @@
      
     </div>
   
-</header>-->
+</header>
 
 <p class="phrase">Pour vous inscrire, remplissez ce formulaire:</p>
 <form method="post" action="traitement.php">
 <p>
             <label  for="prenom">Prénom :</label>
-            <input type="text" name="prenom" id="prenom" class="champ" placeholder="Ex : Guillaume" size="30" maxlength="10" />
+            <input type="text" name="prenom" id="prenom" class="champ" placeholder="Ex : Jérémy" size="30" maxlength="10" />
             <br />
             <br />
-            <!--<label for="nom">Nom :</label>
+            <label for="nom">Nom :</label>
             <input type="text" name="nom" id="nom" class="champ" placeholder="Ex : Pineau" size="30" maxlength="10" />
             <br />
             <br />
@@ -61,12 +61,12 @@
             <label for="codepost"> Code postal :</label>
             <input type="number" name="codepost" id="codepost" class="champ" placeholder="Ex : 78690" min="10000" max="96000"/>
             <br />
-            <br />-->
+            <br />
             <label for="ville">  Ville :</label>
-            <input type="text" name="ville" id="ville" class="champ" placeholder="Ex :Saint-Louis "  size="30" />
+            <input type="text" name="ville" id="ville" class="champ" placeholder="Ex :St Rémy l'honoré "  size="30" />
             <br />
             <br />
-            <!--<label for="mail"> Email :</label>
+            <label for="mail"> Email :</label>
             <input type="email" name="mail" id="mail" class="champ" size="30" placeholder="Ex :jeremail " />
             <br />
             <br />
@@ -82,19 +82,18 @@
             <input type="password" name="passverif" id="passverif" class="champ" minlength="6"/>
             <br />
             <br />
-            <label class="grand" for="conditions">J'accepte les <a href="">conditions d'utilisations</a></label>
             <input type="checkbox" name="conditions" id="conditions"/>
+            <label class="grand" for="conditions">j'accepte les <a href="">conditions d'utilisation</a></label>
             <br />
-            <br />-->
-
-        <p class="valider" >Appuyez sur valider pour confirmer l'inscription</p>
-        <input type="submit" name="valider" value="Valider l'inscription"/>
-        </p>
-
-<!--</form>
+            <br />
+              
   <p class="parcourir" > Ajouter une photo de profil (JPG, PNG ou GIF | max. 15 Ko) :</p>
-    <form class="parcourir" method="post" action="photo.php" enctype="multipart/form-data">
-      <input type="file" name="photo" id="photo" />
+  <form class="parcourir" method="post" action="photo.php" enctype="multipart/form-data">
+     <input type="file" name="photo" id="photo" />
+  </form>
+  </p>
+        <!--<p class="valider" >Appuyez sur valider pour confirmer l'inscription</p>-->
+        <input class="valider" type="submit" value="Valider mon inscription"/>
 </form>
 
 <footer>
@@ -115,7 +114,7 @@
       </div>
     </ul>
   </div>
-</footer> --> 
+</footer>   
 
    
 </body>
