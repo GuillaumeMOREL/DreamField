@@ -12,21 +12,21 @@
     
   <div id="partie_sup_header">
     <div id="container">
-        <a href="accueil.html"><img src="logo.png" id="logo"/></a>
+        <a href="accueil-4.php"><img src="logo.png" id="logo"/></a>
    
-        <a id="DREAMFIELD" href="accueil.html"><h1> DreamField </h1></a>
-      <div id="acces_compte">
-        <a class="connection_inscription_panier" href="connection.html">Se connecter</a>
-        <a class="connection_inscription_panier" href="inscription.html">S'inscrire </a>
+        <a id="DREAMFIELD" href="accueil-4.php"><h1> DreamField </h1></a>
+        <div id="acces_compte">
+        <a class="connection_inscription_panier" href="Inscription.php">Se connecter</a>
+        <a class="connection_inscription_panier" href="Inscription.php">S'inscrire </a>
 
-    <div class="lien_panier">
-    <a class="connection_inscription_panier" href="panier.html"> Mon Panier (0) </a>
-    <div class="layer-panier">
-      <div class="fleche"></div>
-      <div class="contenu">
+        <div class="lien_panier">
+        <a class="connection_inscription_panier" href="panier.html"> Mon Panier (0) </a>
+        <div class="layer-panier">
+        <div class="fleche"></div>
+        <div class="contenu">
         <div id="listes_commandes" class="autres_produits">Votre panier est actuellement vide</div>
         <div id="panier_vide" class="autres_produits"></div>
-      </div>
+        </div>
       </div>
       </div>
     </div>
@@ -38,7 +38,7 @@
      
    	    <ul id="nav">
         <div id="container">
-           	  <li><a href="index.html">Accueil</a></li>
+           	  <li><a href="accueil-4.php">Accueil</a></li>
            	  <li><a href="offres.html">Offres</a></li>
            	 	<li><a href="deposer-annonce.html">Déposer une annonce</a></li>
            	  <li><a href="recettes.html">Recette</a></li> 
