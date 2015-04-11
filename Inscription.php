@@ -43,7 +43,14 @@
   
 </header>
 
-<p class="phrase">Pour vous inscrire, remplissez ce formulaire:</p>
+<div class="formulaire-ins">
+<p id="formulaire-ins-titre">Pour vous inscrire, remplissez ce formulaire:</p>
+
+  <div class=""><p class="parcourir" > Ajouter une photo de profil (JPG, PNG ou GIF | max. 15 Ko) :</p>
+    <form class="parcourir" method="post" action="photo.php" enctype="multipart/form-data">
+      <input type="file" name="photo" id="photo" />
+  </form></div>
+
   <form method="post" action="traitement.php">
     <p>
               <label  for="prenom">Prénom :</label>
@@ -66,8 +73,8 @@
               <input type="text" name="ville" id="ville" class="champ" placeholder="Ex :Saint-Louis "  size="30" />
               <br />
               <br />
-              label for="mail"> Email :</label>
-              <input type="email" name="mail" id="mail" class="champ" size="30" placeholder="Ex :jeremail " />
+              <label for="mail"> Email :</label>
+              <input type="email" name="mail" id="mail" class="champ" size="30" placeholder="Ex :azerty@gmail.com  " />
               <br />
               <br />
               <label class="grand" for="tel"> Numero de telephone :</label>
@@ -82,20 +89,40 @@
               <input type="password" name="passverif" id="passverif" class="champ" minlength="6"/>
               <br />
               <br />
-              <label class="grand" for="conditions">J'accepte les <a href="">conditions d'utilisations</a></label>
-              <input type="checkbox" name="conditions" id="conditions"/>
+              <label class="grand" for="conditions">J'accepte les <a href="" id="cond-uti">conditions d'utilisations</a></label>
+              <input type="checkbox" name="conditions" id="conditions" class="champ"/>
               <br />
               <br />
 
-          <p class="valider" >Appuyez sur valider pour confirmer l'inscription</p>
-          <input type="submit" name="valider" value="Valider l'inscription"/>
+        <div class="valider">
+          <p>Appuyez sur valider pour confirmer l'inscription</p>
+          <input id="validation-ins" type="submit" name="valider" value="Valider l'inscription" />
+        </div>
     </p>
   </form>
+</div>
 
-  <p class="parcourir" > Ajouter une photo de profil (JPG, PNG ou GIF | max. 15 Ko) :</p>
-    <form class="parcourir" method="post" action="photo.php" enctype="multipart/form-data">
-      <input type="file" name="photo" id="photo" />
-  </form>
+<div class="formulaire-co">
+
+    <form method="post" action="traitement.php">
+    <p>
+              <label for="mail" class="champ-co"> Email :</label>
+              <input type="email" name="mail" id="mail" class="champ" size="30" placeholder="Ex :azerty@gmail.com " />
+              <br />
+              <br />
+              <label for="pass" class="champ-co" >Mot de passe :</label>
+              <input type="password" name="pass" id="pass" class="champ" minlength="6" /input>
+              <br />
+              <br />
+
+        <div id="validation-co">
+          <input type="submit" name="valider" value="Connection" />
+        </div>
+    </p>
+    </form>
+
+</div>  
+
 
 <footer>
   <div id="container">
