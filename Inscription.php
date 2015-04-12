@@ -97,6 +97,7 @@
         <div class="valider">
           <p>Appuyez sur valider pour confirmer l'inscription</p>
           <input id="validation-ins" type="submit" name="valider" value="Valider l'inscription" />
+          <input type="reset" id="rafraichir" value="Rafraîchir" />
         </div>
     </p>
   </form>
