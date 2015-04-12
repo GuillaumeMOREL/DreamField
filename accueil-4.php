@@ -45,10 +45,8 @@
            	 	<li><a href="forum.html">Forum</a></li>
              	<li><a href="mon-compte.html">Mon compte</a></li>
               <li><a href="aide.html">Aide</a></li>
-              <!--<li><a  href="recherche_utilisateur.html"><img src="logo-recherche.png" id="logo_recherche"/></a></li>-->
               <li>
                 <form id="search" method="post">
-                  <div class="btn-left-loupe"></div>
                   <input class="search_data" name="saisie" type="search" placeholder="Recherche..." required />
                   <a input class="loupe" name="go" type="submit" value=""/><img src="logo-recherche.png" id="logo-recherche"/></a>
                 </form>
