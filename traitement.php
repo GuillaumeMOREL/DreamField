@@ -1,7 +1,8 @@
 <?php
 if(isset($_POST["valider"])){
-    $pseudo=$_POST["prenom"];
+    $prenom=$_POST["prenom"];
+    $nom=$_POST["nom"];
     $ville=$_POST["ville"];
-    echo "Salut ".$pseudo." de ". $ville."<br/>Bienvenue dans l'aventure DreamField !";
+    echo "Salut ".$prenom."  ".$nom." de ". $ville."<br/>Bienvenue dans l'aventure DreamField !";
 }
 ?>
