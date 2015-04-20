@@ -1,0 +1,219 @@
+	body{
+		font-family: helvetica;
+		/*height: 100%; */
+	}
+	*{
+		margin: 0px;
+		padding: 0px;
+		border: 0px;
+		text-decoration: none;
+		list-style-type: none;
+		color: black;
+	}
+	.container{
+		width:1000px;
+		margin: auto;
+	}
+	/************************* HEADER ******************************/
+	#logo{
+		display: inline-block;
+		height: 190px;
+		width: 190px;
+		margin: 0;
+	}
+
+	#acces_compte{
+		padding-top: 45px; 
+		padding-left: 350px; 
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.connection_inscription_panier{
+		margin-right: 22px;
+		color: black;
+		font-size: 13px;
+		text-transform:uppercase;
+		letter-spacing: 1px;
+	}
+	#menu{
+		background: #56BD78;
+		border-top: 1px solid #47A665;
+		width: 100%;
+	}
+#menu ul	
+{
+	margin: 0;
+	padding: 10px 0px 10px 60px;
+	list-style: none;
+	line-height: normal;
+}
+	
+#menu li
+{
+display: inline-block;
+}
+		
+#menu a
+{
+	display: block;
+	padding: 1em 2em;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 700;
+	color: #FFF;
+}
+		
+#menu #current_page_item a{
+	background: #7BDB99;
+	color: #FFF;
+}
+		
+#menu a:hover
+{
+	background: #7BDB99;
+	text-decoration: none;
+	color: #FFF;
+}
+#search{
+	display: inline-block;
+}
+#logo-recherche{
+	height:20px;
+	width:20px;
+	display: inline-block;
+}
+#search_data{
+	border:1px solid;
+	height:20px;
+	border-radius: 8px;
+	font-size: 12px;
+}
+
+
+	/********************************* MAIN BODY ************************/
+	/************* CARROUSEL ****************/
+	#main_body{
+			padding: 4em 0em 6em 0em;
+	}  
+	.photo_fruit_legume{
+		height: 470px;
+		width: 100%;
+	}
+	#carrousel{
+		position:relative;
+		margin-bottom: 3em;
+		border-bottom: 1px black solid;
+	}
+
+	#carrousel ul li{
+		position: absolute;
+	}
+
+	/******************** PROMOTION ******************/
+	 #bandeau_promotions{
+		overflow: hidden;
+		padding-top: 30em; 
+		padding-bottom: 3em;
+		}
+	#bandeau_promotions img
+		{
+			margin-bottom: 2em;
+		}
+		
+	#bandeau_promotions #title a
+		{
+			font-family: helvetica;
+			letter-spacing: 1px;
+			margin-bottom: 2em;
+			padding-top: 1em;
+		}
+		#bandeau_promotions .subtitle
+		{
+			font-family: helvetica;
+			font-size: 12px;
+		} 
+
+		#bandeau_promotions #promo1 {
+			display: inline-block;
+			width: 200px;
+			padding-right: 50px; 
+		}
+		
+		#bandeau_promotions #promo2 {
+			display: inline-block;
+			width: 200px;
+			padding-right: 50px;
+		}
+		
+		#bandeau_promotions #promo3 {
+			display: inline-block;
+			width: 200px;
+			padding-right: 50px;
+		}
+
+		#bandeau_promotions #promo4 {
+		display: inline-block;
+			width: 200px;
+		}
+
+	.produit{
+		height: 150px;
+		width: 150px;
+	}
+
+	/********************* DESCRIPTION ASSOC ************************/
+	#description_association{
+		overflow: hidden;
+		padding-top: 6em;
+		border-top: 1px solid #E5E5E5;
+	}
+	#description_association .title
+	{
+		margin-bottom: 2em;
+	}
+	#content{
+		float: left;
+		width: 400px;
+	}
+	#logo-webdesign{
+		margin-right: 60px;
+		border-left: .5px black solid;
+		float: right;
+		width: 400px;
+	}
+	/**************************       FOOTER    ***********************************/
+	footer{
+		padding-top: 15px;
+		background-color: rgb(233,233,237);
+		width: 100%;
+	}
+	.logo_reseaux_sociaux {
+		height: 40px;
+		width: 40px;
+		padding: 15px;
+		/*border: 1px rgb(233, 233, 237) solid;
+		border-radius: 7px; */
+
+	}
+	#images-footer{ 
+		display: inline-block;
+		/*border: 1px rgb(233, 233, 237) solid;
+		border-radius: 7px; */
+
+	}
+	#texte_footer li{
+		text-transform: uppercase;
+		display: inline-block;
+		margin-top:10px; 
+		padding-right: 30px;
+		letter-spacing: 1px;
+		font-family: helvetica;
+		font-size: 13px;
+		text-align: center;
+	}
+	
+
+
