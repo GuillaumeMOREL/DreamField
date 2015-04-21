@@ -125,7 +125,7 @@
 </div> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script>
-$(document).ready(function(){
+  $(document).ready(function(){
     
     var $prenom = $('#prenom'),
         $nom = $('#nom'),
@@ -215,7 +215,7 @@ $(document).ready(function(){
         });
       }
     }
-});
+  });
 </script> 
 </div>
 

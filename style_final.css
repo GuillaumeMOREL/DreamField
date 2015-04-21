@@ -56,8 +56,7 @@ display: inline-block;
 		
 #menu a
 {
-	display: block;
-	padding: 1em 2em;
+	padding: 12px 18px;
 	letter-spacing: 1px;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -83,6 +82,7 @@ display: inline-block;
 #logo-recherche{
 	height:20px;
 	width:20px;
+	padding:0px;
 	display: inline-block;
 }
 #search_data{
@@ -184,26 +184,13 @@ display: inline-block;
 		float: right;
 		width: 400px;
 	}
-	/**************************       FOOTER    ***********************************/
+	/**************************       FOOTER      ***********************************/
 	footer{
 		padding-top: 15px;
 		background-color: rgb(233,233,237);
 		width: 100%;
 	}
-	.logo_reseaux_sociaux {
-		height: 40px;
-		width: 40px;
-		padding: 15px;
-		/*border: 1px rgb(233, 233, 237) solid;
-		border-radius: 7px; */
 
-	}
-	#images-footer{ 
-		display: inline-block;
-		/*border: 1px rgb(233, 233, 237) solid;
-		border-radius: 7px; */
-
-	}
 	#texte_footer li{
 		text-transform: uppercase;
 		display: inline-block;
@@ -213,7 +200,25 @@ display: inline-block;
 		font-family: helvetica;
 		font-size: 13px;
 		text-align: center;
+	}	
+	
+	.logo_reseaux_sociaux {
+		display:block;
+		height: 40px;
+		width: 40px;
+		padding: 15px;
+		/*border: 1px rgb(233, 233, 237) solid;
+		border-radius: 7px; */
+
 	}
+	/*#images-footer a{ 
+		display: block;
+		width:40px;
+		border: 1px rgb(233, 233, 237) solid;
+		border-radius: 7px; 
+
+	}*/
+
 	
 
 
