@@ -1,0 +1,80 @@
+	.container{
+		width:1000px;
+		margin: auto;
+	}
+	#logo{
+		display: inline-block;
+		height: 190px;
+		width: 190px;
+		margin: 0;
+	}
+
+	#acces_compte{
+		padding-top: 45px; 
+		padding-left: 350px; 
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.connection_inscription_panier{
+		margin-right: 22px;
+		color: black;
+		font-size: 13px;
+		text-transform:uppercase;
+		letter-spacing: 1px;
+	}
+	#menu{
+		background: #56BD78;
+		border-top: 1px solid #47A665;
+		width: 100%;
+	}
+#menu ul	
+{
+	margin: 0;
+	padding: 10px 0px 10px 60px;
+	list-style: none;
+	line-height: normal;
+}
+	
+#menu li
+{
+display: inline-block;
+}
+		
+#menu a
+{
+	padding: 12px 18px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 700;
+	color: #FFF;
+}
+		
+#menu #current_page_item a{
+	background: #7BDB99;
+	color: #FFF;
+}
+		
+#menu a:hover
+{
+	background: #7BDB99;
+	text-decoration: none;
+	color: #FFF;
+}
+#search{
+	display: inline-block;
+}
+#logo-recherche{
+	height:20px;
+	width:20px;
+	padding:0px;
+	display: inline-block;
+}
+#search_data{
+	border:1px solid;
+	height:20px;
+	border-radius: 8px;
+	font-size: 12px;
+}
