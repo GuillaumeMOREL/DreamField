@@ -6,8 +6,8 @@
            <div  class="container">  
                <a href="accueil_final.php"><img src="/logo/logo.png" id="logo"/></a>
                 <div id="acces_compte">
-                <a class="connection_inscription_panier" href="Inscription.php">Se connecter</a>
-                <a class="connection_inscription_panier" href="Inscription.php">S'inscrire </a>
+                <a class="connection_inscription_panier" href="connexion.php">Se connecter</a>
+                <a class="connection_inscription_panier" href="inscription.php">S'inscrire </a>
                 <a class="connection_inscription_panier" href="panier.html"> Mon Panier (0) </a>
                 </div>
             </div>   
