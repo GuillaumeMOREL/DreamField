@@ -22,7 +22,7 @@
       <input type="file" name="photo" id="photo" />
   </form></div>
 
-  <form method="post" action="traitement.php">
+  <form id="form" method="post" action="traitement.php">
     <p>
               <label for="prenom">Prénom :</label>
               <input type="text" name="prenom" id="prenom" class="champ" placeholder="Ex : Guillaume" size="30" maxlength="10" />

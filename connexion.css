@@ -16,7 +16,10 @@
 	margin-top: 20px;
 	width:1000px;
 	height:350px;
+	margin:100px;
+	margin-left: 350px;
 }
+
 .formulaire-co{
 	float:center;
 	height:150px;
@@ -25,11 +28,10 @@
 	background-color: #C3D6DA;
 	padding:50px;
 	padding-left:0px; 
-	margin:100px;
-	margin-left: 350px;
 
 }
-form{
+
+#form{
 	margin-left: 100px;
 	display:inline-block;
 }
@@ -38,18 +40,22 @@ label{
 	width: 210px;
 	float: left;
 }
+
 .champ{
 	border:1px solid;
 	border-radius:5px;
 }
+
 .champ-co{
 	width:130px;
 }
+
 #validation-co{
 	width:50px;
 	height:30px;
 	border-radius: 1px;
 }
+
 input{
 	padding:3px ;
 }

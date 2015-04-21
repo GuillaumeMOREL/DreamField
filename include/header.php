@@ -3,8 +3,8 @@
           </head>  
 
           <div id="header">    
-           <div  class="container">  
-               <a href="accueil_final.php"><img src="/logo/logo.png" id="logo"/></a>
+           <div  id="top-header" class="container">  
+                <a href="accueil_final.php"><img src="/logo/logo.png" id="logo"/></a>
                 <div id="acces_compte">
                 <a class="connection_inscription_panier" href="connexion.php">Se connecter</a>
                 <a class="connection_inscription_panier" href="inscription.php">S'inscrire </a>
@@ -23,7 +23,7 @@
                       <li id="recherche">
                         <form id="search" method="post">
                           <input id="search_data" name="saisie" type="search" placeholder="Recherche..." required />
-                          <a input name="go" type="submit" id="logo-search" value=""/><img src="/logo/logo-recherche.png" id="logo-recherche"/></a>
+                          <a name="go" type="submit" id="logo-search" value=""/><img src="/logo/logo-recherche.png" id="logo-recherche"/></a>
                         </form>
                       </li> 
                 </ul> 

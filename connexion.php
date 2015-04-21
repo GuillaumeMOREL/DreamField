@@ -17,7 +17,7 @@
 
   <div class="formulaire-co">
 
-      <form method="post" action="traitement.php">
+      <form id="form" method="post" action="traitement.php">
       <p>
                 <label for="mail" class="champ-co"> Email :</label>
                 <input type="email" name="mail" id="mail" class="champ" size="30" placeholder="Ex :azerty@gmail.com " />
