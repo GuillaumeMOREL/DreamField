@@ -3,7 +3,7 @@
           </head>  
 
           <div id="header">    
-           <div  id="top-header" class="container">  
+            <div  id="top-header" class="container">  
                 <a href="accueil_final.php"><img src="/logo/logo.png" id="logo"/></a>
                 <div id="acces_compte">
                 <a class="connection_inscription_panier" href="connexion.php">Se connecter</a>

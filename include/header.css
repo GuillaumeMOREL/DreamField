@@ -1,14 +1,18 @@
 	#header{
 		float:top;
-	}
-
-	.container{
-		width:100%;
-		margin: auto;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1000;
 	}
 
 	#top-header{
 		height:135px;
+		float:middle;
+		width:100%;
+		margin:auto;
+		margin: 0 auto;
+		width:1000px;
+	
 	}
 
 	#logo{
@@ -20,7 +24,7 @@
 
 	#acces_compte {
 		padding-top: 45px; 
-		padding-left: 350px; 
+		padding-left: 300px; 
 		display: inline-block;
 		vertical-align: top;
 		border:2px;
@@ -48,10 +52,11 @@
 		width: 100%;
 	}
 
-#menu ul	{
+#menu ul {
 
 	height:33px;
-	margin: 0;
+	margin: 0 auto;
+	width:1000px;
 	padding: 10px 0px 10px 60px;
 	list-style: none;
 	line-height: normal;
