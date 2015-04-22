@@ -16,7 +16,7 @@
                 <ul>
                       <li id="current_page_item"><a href="accueil_final.php"  >Accueil</a></li>
                       <li><a href="offres.html" >Offres</a></li>
-                      <li><a href="deposer-annonce.html" >Déposer une annonce</a></li>
+                      <li><a href="redirection.php" >Déposer une annonce</a></li>
                       <li><a href="recettes.html" >Recette</a></li> 
                       <li><a href="forum.html" >Forum</a></li>
                       <li><a href="aide.html" >Aide</a></li>

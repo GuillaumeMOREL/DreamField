@@ -15,11 +15,12 @@
 
 /*///////////////////////////////////////////////////////////////////////////////////*/
 
-.milieu{
-
-	margin-top: 100px;
+#milieu{
 	width:1000px;
 	height:700px;
+	margin: 0 auto;
+	margin-top: 100px;
+
 }
 
 .formulaire-ins{
@@ -34,13 +35,14 @@
 
 .formulaire-co{
 	float:right;
-	height:150px;
-	width:300px;
+	height:140px;
+	width:343px;
 	border-radius: 5px;
 	margin:10px;
 	margin-top: 200px;
 	background-color: #C3D6DA;
-	padding:50px;
+	padding:10px;
+	padding-top:50px;
 
 }
 
@@ -62,6 +64,7 @@
 
 label{
 	width: 210px;
+	margin:10px;
 	float: left;
 }
 
@@ -90,9 +93,12 @@ label{
 }
 
 #validation-co{
-	width:50px;
-	height:20px;
+	width:60px;
+	height:30px;
+	margin-left: 30px;
+
 }
+
 input{
 	padding:3px ;
 }

@@ -1,23 +1,24 @@
+body{
+	font-family: helvetica;
+	/*height: 100%; */
+}
 
-	body{
-		font-family: helvetica;
-		/*height: 100%; */
-	}
-	*{
-		margin: 0px;
-		padding: 0px;
-		border: 0px;
-		text-decoration: none;
-		list-style-type: none;
-		color: black;
-	}
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+}
 
 .milieu{
 	margin-top: 20px;
-	width:1000px;
-	height:350px;
+	width:300px;
+	height:400px;
 	margin:100px;
-	margin-left: 350px;
+	margin: 0 auto;
+
 }
 
 .formulaire-co{
@@ -28,6 +29,8 @@
 	background-color: #C3D6DA;
 	padding:50px;
 	padding-left:0px; 
+	margin: 0 auto;
+	margin-top: 150px;
 
 }
 
@@ -59,3 +62,5 @@ label{
 input{
 	padding:3px ;
 }
+
+

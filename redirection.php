@@ -13,7 +13,7 @@
 <?php include("include/header.php"); ?>
 </header>
 
-<div class="milieu">
+<div id="milieu">
 <div class="formulaire-ins">
 <p id="formulaire-ins-titre">Pour vous inscrire, remplissez ce formulaire:</p>
 
