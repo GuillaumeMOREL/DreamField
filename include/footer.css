@@ -11,7 +11,7 @@
 
   }
 
-  #texte_footer li{
+  #champ-footer li{
     text-transform: uppercase;
     display: inline-block;
     margin-top:10px; 
@@ -21,6 +21,15 @@
     font-size: 13px;
     text-align: center;
   } 
+
+  #text-footer{
+    width:100%;
+  }
+
+  #logo-footer{
+    width:100%;
+  }
+
 
   .logo_reseaux_sociaux {
     display:block;
