@@ -1,0 +1,14 @@
+section{
+	float:left;
+	background-color: #C3D6DA;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+h1{
+	display:inline-block;
+	margin-left: 10px;
+}
+p{
+	display:block;
+	margin-left: 100px;
+}
