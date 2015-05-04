@@ -7,28 +7,29 @@
 </head>
 
 
-<body>
+  <body>
 
-  <?php
-    try
-    {
-      $bdd = new PDO('mysql:host=localhost;dbname=test;charset=utf8', 'root', '');
-    }
-    catch (Exception $e)
-    {
-     die('Erreur : ' . $e->getMessage());
-    }
+    <?php
+     try
+      {
+        $bdd = new PDO('mysql:host=localhost;dbname=test;charset=utf8', 'root', '');
+      }
+      catch (Exception $e)
+      {
+       die('Erreur : ' . $e->getMessage());
+      }
 
-    $reponse = $bdd->query('SELECT nom, possesseur FROM jeux_video WHERE possesseur=\'Patrick\'');
-
+    $reponse = $bdd->query('SELECT nom, prenom, adresse, codepost, mail, tel FROM utilisateur WHERE utilisateur=\'Patrick\'');
+  
     while ($donnees = $reponse->fetch())
-    {
-      echo $donnees['nom'] . ' appartient à ' . $donnees['possesseur'] . '<br />';
-    }
-    $reponse->closeCursor();
-  ?>
-     
-</body>
-
+     {
+       echo 'NOM'. $donnees['nom'] . ' PRENOM ' . $donnees['prenom'] . 'ADRESSE' . $donnees['adresse'] . $donnees['codepost'] . 'ADRESSE EMAIL' . $donnees['mail'] . 'TEL' . $donnees['tel'] ;
+     }
+     $reponse->closeCursor();
+   ?>       
+  </body>
+  <footer>
+    <?php include("include/footer.php"); ?>
+  </footer>
 
 </html>
