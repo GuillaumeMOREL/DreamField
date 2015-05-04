@@ -14,10 +14,10 @@
 		<p> N'hésitez pas à nous contacter en cas de problèmes sur le site ou pour d'autres éventuelles questions </p>
 		<section>
 			<h2> Par téléphone </h2>
-			<ul>
-				<li> 0666666666 : le diable </li>
-				<li> 0678910111 : aucune idée</li>
-				<li> 0123456789 : le fixe d'aucune idée </li>
+			<ul class="tel">
+				<li> 0679456627 : Jérémy Pineau </li>
+				<li> 0134879856 : Jérémy Pineau </li>
+				<li> 0661454328 : Michèle Victoire Aboungone</li>
 			</ul>
 		</section>
 		<section>
@@ -29,7 +29,8 @@
 
 
 		<h1> Web Design </h1>
-		<p> Nous avons réalisez ce site, nous sommes à votre écoute pour d'éventuelles propositions ($_$)</p>
+		<p> WEbDesign est une association a but non-lucratif.Notre but ? Vous satisfaire !</br>
+        Nous avons réalisé ce site, nous sommes à votre écoute pour d'éventuelles propositions</p>
 		<section>
 			<h2> Par Email </h2>
 			<ul>
