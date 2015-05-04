@@ -5,9 +5,10 @@
 <link rel="Stylesheet" href="ProfilStyle.css" />
 <title> DREAMFIELD</title>
 </head>
-
-
   <body>
+    <header>
+      <?php include("include/header.php"); ?>
+    </header>
 
     <?php
      try
@@ -26,10 +27,10 @@
        echo 'NOM'. $donnees['nom'] . ' PRENOM ' . $donnees['prenom'] . 'ADRESSE' . $donnees['adresse'] . $donnees['codepost'] . 'ADRESSE EMAIL' . $donnees['mail'] . 'TEL' . $donnees['tel'] ;
      }
      $reponse->closeCursor();
-   ?>       
-  </body>
-  <footer>
-    <?php include("include/footer.php"); ?>
-  </footer>
+   ?>
+    <footer>
+      <?php include("include/footer.php"); ?>
+    </footer>  
 
+  </body>
 </html>
