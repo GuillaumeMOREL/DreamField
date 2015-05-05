@@ -1,10 +1,10 @@
           <head>
-            <link rel="Stylesheet" href="/include/header.css" />
+            <link rel="Stylesheet" href="header.css" />
           </head>  
 
           <div id="header">    
             <div  id="top-header" class="container">  
-                <a href="accueil_final.php"><img src="/logo/logo.png" id="logo"/></a>
+                <a href="accueil_final.php"><img src="../logo/logo.png" id="logo"/></a>
                 <div id="acces_compte">
                 <a class="connection_inscription_panier" href="connexion.php">Se connecter</a>
                 <a class="connection_inscription_panier" href="inscription.php">S'inscrire </a>

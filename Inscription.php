@@ -16,13 +16,23 @@
 <div id="milieu">
 <div class="formulaire-ins">
 <p id="formulaire-ins-titre">Pour vous inscrire, remplissez ce formulaire:</p>
-
+<?php
+/*if ($_GET['error'] AND $_GET['error'] = 'empty') {
+  echo'tous les champs ne sont pas remplis';
+   }
+elseif ($_GET['error'] AND $_GET['error'] = 'existe'){
+  echo'cet e-mail est deja pris.Veuillez en choisir un autre';
+}
+else ($_GET['error'] AND $_GET['error'] = 'different'){
+ echo'vous avez entrez des e-mails différents';
+}--je voulais mettre l'erreur sur la feuille mais j'y arrive pas */
+?>
   <div class=""><p class="parcourir" > Ajouter une photo de profil (JPG, PNG ou GIF | max. 15 Ko) :</p>
-    <form class="parcourir" method="post" action="photo.php" enctype="multipart/form-data">
+    <form class="parcourir" method="post" action="photo.php" enctype="multipart/form-data" >
       <input type="file" name="photo" id="photo" />
   </form></div>
 
-  <form id="form" method="post" action="traitement.php">
+  <form id="form" method="post" action="register_inscription.php">
     <p>
               <label for="prenom">Prénom :</label>
               <input type="text" name="prenom" id="prenom" class="champ" placeholder="Ex : Guillaume" size="30" maxlength="10" />
