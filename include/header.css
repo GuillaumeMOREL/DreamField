@@ -79,6 +79,8 @@ display: inline-block;
 #menu #current_page_item a{
 	background: #7BDB99;
 	color: #FFF;
+	text-transform: uppercase;
+
 }
 		
 #menu a:hover{

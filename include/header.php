@@ -15,7 +15,7 @@
               <div id="menu" class="container">
                 <ul>
                       <li id="current_page_item"><a href="accueil_final.php"  >Accueil</a></li>
-                      <li><a href="offres.html" class="menu-text" >Offres</a></li>
+                      <li><a href="annoncesfruits.php" class="menu-text" >Offres</a></li>
                       <li><a href="redirection.php" class="menu-text" >Déposer une annonce</a></li>
                       <li><a href="recettes.html" class="menu-text" >Recette</a></li> 
                       <li><a href="forum.html" class="menu-text" >Forum</a></li>
