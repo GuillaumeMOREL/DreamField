@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8" />   
-<link rel="Stylesheet" href="ProfilStyle.css" />
+<link rel="Stylesheet" href="/css/ProfilStyle.css" />
 <title> DREAMFIELD</title>
 </head>
   <body>

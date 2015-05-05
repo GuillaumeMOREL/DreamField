@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8" />   
-<link rel="Stylesheet" href="Style_redirection.css" />
+<link rel="Stylesheet" href="/css/Style_redirection.css" />
 <title> DREAMFIELD</title>
 </head>
 
