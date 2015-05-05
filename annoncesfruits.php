@@ -27,49 +27,49 @@
     
     <h2 id="fruits"> FRUITS </h2>
     <section>
-	<a href=""><img src="abricot.jpg" alt="abricot" title="Cliquez ici pour voir les differentes ventes d'abricots" /></a> </br>
+	<a href=""><img src="/photo_fruit_legume/abricot.jpg" alt="abricot" title="Cliquez ici pour voir les differentes ventes d'abricots" /></a> </br>
 	<h3> ABRICOTS </h3>
 	<input type="checkbox" name="ListeAbricot" id="ListeAbricot" title="cette liste permet de vous rappeler ce que vous devez acheter"/>
 	Ajouter cette denrée à votre liste de course
 	</section>
 	<section>
-	<a href=""><a href=""><a href=""><img src="banane.jpg" alt="banane" title="Cliquez ici pour voir les differentes ventes de bananes" /></a> </br>
+	<a href=""><a href=""><a href=""><img src="/photo_fruit_legume/banane.jpg" alt="banane" title="Cliquez ici pour voir les differentes ventes de bananes" /></a> </br>
 	<h3> BANANES </h3>
 	<input type="checkbox" name="ListeBanane" id="ListeBanane" title="cette liste permet de vous rappeler ce que vous devez acheter"/>
 	Ajouter cette denrée à votre liste de course
 	</section>
 	<section>
-	<a href=""><a href=""><img src="clementine.jpg" alt="clementine" title="Cliquez ici pour voir les differentes ventes de clementines" /></a> </br>
+	<a href=""><a href=""><img src="/photo_fruit_legume/clementine.jpg" alt="clementine" title="Cliquez ici pour voir les differentes ventes de clementines" /></a> </br>
 	<h3> CLÉMENTINES </h3>
 	<input type="checkbox" name="ListeClementine" id="ListeClementine" title="cette liste permet de vous rappeler ce que vous devez acheter"/>
 	Ajouter cette denrée à votre liste de course
 	</section>
 	<section>
-	<a href=""><img src="datte.jpg" alt="datte" title="Cliquez ici pour voir les differentes ventes de dattes" /></a> </br>
+	<a href=""><img src="/photo_fruit_legume/datte.jpg" alt="datte" title="Cliquez ici pour voir les differentes ventes de dattes" /></a> </br>
 	<h3> DATTES </h3>
 	<input type="checkbox" name="ListeDatte" id="ListeDatte" title="cette liste permet de vous rappeler ce que vous devez acheter"/>
 	Ajouter cette denrée à votre liste de course
 	</section>
 	<section>
-	<a href=""><img src="figue.jpg" alt="figue" title="Cliquez ici pour voir les differentes ventes de figues" /></a> </br>
+	<a href=""><img src="/photo_fruit_legume/figue.jpg" alt="figue" title="Cliquez ici pour voir les differentes ventes de figues" /></a> </br>
 	<h3> FIGUES </h3>
 	<input type="checkbox" name="ListeFigue" id="ListeFigue" title="cette liste permet de vous rappeler ce que vous devez acheter"/>
 	Ajouter cette denrée à votre liste de course
 	</section>
 	<section>
-	<a href=""><img src="grenade.jpg" alt="grenade" title="Cliquez ici pour voir les differentes ventes de grenades" /></a> </br>
+	<a href=""><img src="grenade.jpg" alt="/photo_fruit_legume/grenade" title="Cliquez ici pour voir les differentes ventes de grenades" /></a> </br>
 	<h3> GRENADES </h3>
 	<input type="checkbox" name="ListeGrenade" id="ListeGrenade" title="cette liste permet de vous rappeler ce que vous devez acheter"/>
 	Ajouter cette denrée à votre liste de course
 	</section>
 	<section>
-	<a href=""><img src="prune.jpg" alt="prune" title="Cliquez ici pour voir les differentes ventes de prunes" /></a> </br>
+	<a href=""><img src="prune.jpg" alt="/photo_fruit_legume/prune" title="Cliquez ici pour voir les differentes ventes de prunes" /></a> </br>
 	<h3> PRUNES </h3>
 	<input type="checkbox" name="ListePrune" id="ListePrune" title="cette liste permet de vous rappeler ce que vous devez acheter"/>
 	Ajouter cette denrée à votre liste de course
 	</section>
 	<section>
-	<a href=""><img src="kiwi.jpg" alt="kiwi" title="Cliquez ici pour voir les differentes ventes de kiwis" /></a> </br>
+	<a href=""><img src="/photo_fruit_legume/kiwi.jpg" alt="kiwi" title="Cliquez ici pour voir les differentes ventes de kiwis" /></a> </br>
 	<h3> KIWIS </h3>
 	<input type="checkbox" name="ListeKiwi" id="ListeKiwi" title="cette liste permet de vous rappeler ce que vous devez acheter"/>
 	Ajouter cette denrée à votre liste de course
@@ -78,49 +78,49 @@
 
 	<h2 id="legumes"> LÉGUMES </h2>
 	<section>
-	<a href=""><img src="asperge.jpg" alt="asperge" title="Cliquez ici pour voir les differentes ventes d'asperges" /></a> </br>
+	<a href=""><img src="/photo_fruit_legume/asperge.jpg" alt="asperge" title="Cliquez ici pour voir les differentes ventes d'asperges" /></a> </br>
 	<h3> ASPERGES </h3>
 	<input type="checkbox" name="ListeAsperge" id="ListeAsperge" title="cette liste permet de vous rappeler ce que vous devez acheter"/>
 	Ajouter cette denrée à votre liste de course
 	</section>
 	<section>
-	<a href=""><a href=""><a href=""><img src="brocoli.jpg" alt="brocoli" title="Cliquez ici pour voir les differentes ventes de brocolis" /></a> </br>
+	<a href=""><a href=""><a href=""><img src="/photo_fruit_legume/brocoli.jpg" alt="brocoli" title="Cliquez ici pour voir les differentes ventes de brocolis" /></a> </br>
 	<h3> BROCOLIS </h3>
 	<input type="checkbox" name="ListeBrocoli" id="ListeBrocoli" title="cette liste permet de vous rappeler ce que vous devez acheter"/>
 	Ajouter cette denrée à votre liste de course
 	</section>
 	<section>
-	<a href=""><a href=""><img src="chou.jpg" alt="chou" title="Cliquez ici pour voir les differentes ventes de choux" /></a> </br>
+	<a href=""><a href=""><img src="/photo_fruit_legume/chou.jpg" alt="chou" title="Cliquez ici pour voir les differentes ventes de choux" /></a> </br>
 	<h3> CHOUX </h3>
 	<input type="checkbox" name="ListeChou" id="ListeChou" title="cette liste permet de vous rappeler ce que vous devez acheter"/>
 	Ajouter cette denrée à votre liste de course
 	</section>
 	<section>
-	<a href=""><img src="epinard.jpg" alt="epinard" title="Cliquez ici pour voir les differentes ventes d'epinards'" /></a> </br>
+	<a href=""><img src="/photo_fruit_legume/epinard.jpg" alt="epinard" title="Cliquez ici pour voir les differentes ventes d'epinards'" /></a> </br>
 	<h3> ÉPINARDS </h3>
 	<input type="checkbox" name="ListeEpinard" id="ListeEpinard" title="cette liste permet de vous rappeler ce que vous devez acheter"/>
 	Ajouter cette denrée à votre liste de course
 	</section>
 	<section>
-	<a href=""><img src="gingembre.jpg" alt="gingembre" title="Cliquez ici pour voir les differentes ventes de gingembres" /></a> </br>
+	<a href=""><img src="/photo_fruit_legume/gingembre.jpg" alt="gingembre" title="Cliquez ici pour voir les differentes ventes de gingembres" /></a> </br>
 	<h3> GINGEMBRE </h3>
 	<input type="checkbox" name="ListeGingembre" id="ListeGingembre" title="cette liste permet de vous rappeler ce que vous devez acheter"/>
 	Ajouter cette denrée à votre liste de course
 	</section>
 	<section>
-	<a href=""><img src="haricot.jpg" alt="haricot" title="Cliquez ici pour voir les differentes ventes de haricots" /></a> </br>
+	<a href=""><img src="/photo_fruit_legume/haricot.jpg" alt="haricot" title="Cliquez ici pour voir les differentes ventes de haricots" /></a> </br>
 	<h3> HARICOTS VERTS </h3>
 	<input type="checkbox" name="ListeHaricot" id="ListeHaricot" title="cette liste permet de vous rappeler ce que vous devez acheter"/>
 	Ajouter cette denrée à votre liste de course
 	</section>
 	<section>
-	<a href=""><img src="mais.jpg" alt="mais" title="Cliquez ici pour voir les differentes ventes de maïs" /></a> </br>
+	<a href=""><img src="/photo_fruit_legume/mais.jpg" alt="mais" title="Cliquez ici pour voir les differentes ventes de maïs" /></a> </br>
 	<h3> MAÏS </h3>
 	<input type="checkbox" name="ListeMais" id="ListeMais" title="cette liste permet de vous rappeler ce que vous devez acheter"/>
 	Ajouter cette denrée à votre liste de course
 	</section>
 	<section>
-	<a href=""><img src="navet.jpg" alt="navet" title="Cliquez ici pour voir les differentes ventes de navets" /></a> </br>
+	<a href=""><img src="/photo_fruit_legume/navet.jpg" alt="navet" title="Cliquez ici pour voir les differentes ventes de navets" /></a> </br>
 	<h3> NAVETS </h3>
 	<input type="checkbox" name="ListeNavet" id="ListeNavet" title="cette liste permet de vous rappeler ce que vous devez acheter"/>
 	Ajouter cette denrée à votre liste de course
