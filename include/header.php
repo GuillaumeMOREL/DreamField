@@ -1,5 +1,9 @@
           <head>
+<<<<<<< HEAD
             <link rel="Stylesheet" href="include/header.css" />
+=======
+            <link rel="Stylesheet" href="/include/header.css" />
+>>>>>>> origin/master
           </head>  
 
           <div id="header">    

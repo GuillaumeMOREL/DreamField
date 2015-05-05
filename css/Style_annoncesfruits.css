@@ -1,0 +1,22 @@
+body{
+	font-family: helvetica;
+}
+section{
+	
+	
+	text-align: center;
+	display:inline-block;
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+h2{
+	margin-left: 10px;
+}
+p{
+	text-align: justify;
+	margin-left: 20px;
+	width: 50%;
+}

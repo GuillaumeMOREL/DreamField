@@ -3,7 +3,7 @@
 
           <head>
             <meta charset="utf-8" />   
-            <link rel="Stylesheet" href="style_final.css" />
+            <link rel="Stylesheet" href="/css/Style_final.css" />
             <title> DREAMFIELD</title>
           </head>
 
