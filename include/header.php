@@ -10,13 +10,13 @@
                 <div id="acces_compte">
                 <a class="connection_inscription_panier" href="connexion.php">Se connecter</a>
                 <a class="connection_inscription_panier" href="inscription.php">S'inscrire </a>
-                <a class="connection_inscription_panier" href="panier.html"> Mon Panier (0) </a>
+                <a class="connection_inscription_panier" href="redirection.php"> Mon Panier (0) </a>
                 </div>
             </div>   
 
               <div id="menu" class="container">
                 <ul>
-                      <li id="current_page_item"><a href="accueil_final.php"  >Accueil</a></li>
+                      <li id="current_page_item"><a href="accueil_final.php"  class="menu-text" >Accueil</a></li>
                       <li><a href="annoncesfruits.php" class="menu-text" >Offres</a></li>
                       <li><a href="redirection.php" class="menu-text" >Déposer une annonce</a></li>
                       <li><a href="recettes.html" class="menu-text" >Recette</a></li> 
