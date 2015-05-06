@@ -7,11 +7,11 @@
         <div id="champ-footer">
           <ul>
             <div id="text-footer">
-              <li><a href="mentions_legales.html"> Mentions legales </a></li>
-              <li><a href="qui_sommes_nous.html"> Qui sommes nous </a></li>
-              <li><a href="nous_contacter.html"> Nous contacter </a></li>
-              <li><a href="plan_du_site.html"> Plan du site </a></li> 
-              <li><a href="charte_de_confidentialite.html"> Charte de confidentialité </a></li>
+              <li><a href="mentions_legales.html" class="text-footer" > Mentions legales </a></li>
+              <li><a href="qui_sommes_nous.html" class="text-footer" > Qui sommes nous </a></li>
+              <li><a href="nous_contacter.html" class="text-footer" > Nous contacter </a></li>
+              <li><a href="plan_du_site.html" class="text-footer" > Plan du site </a></li> 
+              <li><a href="charte_de_confidentialite.html" class="text-footer" > Charte de confidentialité </a></li>
             </div>
             <div id="logo-footer">
               <li><a href="email.html"> <img class="logo_reseaux_sociaux" src="/logo/email.png"/></a></li>

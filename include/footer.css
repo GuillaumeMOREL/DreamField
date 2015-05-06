@@ -27,6 +27,11 @@
   width:950px;
   }
 
+  .text-footer{
+    text-decoration: none;
+    color:black;
+  }
+
   #logo-footer{
   margin: 0 auto;
   width:500px;

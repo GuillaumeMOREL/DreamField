@@ -84,13 +84,13 @@
 	Ajouter cette denrée à votre liste de course
 	</section>
 	<section>
-	<a href=""><a href=""><a href=""><img src="/photo_fruit_legume/brocoli.jpg" alt="brocoli" title="Cliquez ici pour voir les differentes ventes de brocolis" /></a> </br>
+	<a href=""><img src="/photo_fruit_legume/brocoli.jpg" alt="brocoli" title="Cliquez ici pour voir les differentes ventes de brocolis" /></a> </br>
 	<h3> BROCOLIS </h3>
 	<input type="checkbox" name="ListeBrocoli" id="ListeBrocoli" title="cette liste permet de vous rappeler ce que vous devez acheter"/>
 	Ajouter cette denrée à votre liste de course
 	</section>
 	<section>
-	<a href=""><a href=""><img src="/photo_fruit_legume/chou.jpg" alt="chou" title="Cliquez ici pour voir les differentes ventes de choux" /></a> </br>
+	<a href=""><img src="/photo_fruit_legume/chou.jpg" alt="chou" title="Cliquez ici pour voir les differentes ventes de choux" /></a> </br>
 	<h3> CHOUX </h3>
 	<input type="checkbox" name="ListeChou" id="ListeChou" title="cette liste permet de vous rappeler ce que vous devez acheter"/>
 	Ajouter cette denrée à votre liste de course
