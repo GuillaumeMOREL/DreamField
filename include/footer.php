@@ -9,7 +9,7 @@
             <div id="text-footer">
               <li><a href="mentions_legales.html" class="text-footer" > Mentions legales </a></li>
               <li><a href="qui_sommes_nous.html" class="text-footer" > Qui sommes nous </a></li>
-              <li><a href="nous_contacter.html" class="text-footer" > Nous contacter </a></li>
+              <li><a href="contacter.php" class="text-footer" > Nous contacter </a></li>
               <li><a href="plan_du_site.html" class="text-footer" > Plan du site </a></li> 
               <li><a href="charte_de_confidentialite.html" class="text-footer" > Charte de confidentialité </a></li>
             </div>
