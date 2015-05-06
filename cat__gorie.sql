@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Mer 06 Mai 2015 à 17:20
+-- Généré le :  Mer 06 Mai 2015 à 20:34
 -- Version du serveur :  5.6.17
 -- Version de PHP :  5.5.12
 
@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS `catégorie` (
   `catégorie_produits` varchar(100) NOT NULL,
   `nom_produits` varchar(100) NOT NULL,
   PRIMARY KEY (`I_D`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=98 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=101 ;
 
 --
 -- Contenu de la table `catégorie`
@@ -90,51 +90,50 @@ INSERT INTO `catégorie` (`I_D`, `catégorie_produits`, `nom_produits`) VALUES
 (50, 'fruit', 'pomme de cythère'),
 (51, 'légume', 'asperge'),
 (52, 'légume', 'céleri-rave'),
-(53, 'légume', 'choux pommé'),
 (54, 'légume', 'choux vert'),
 (55, 'légume', 'choux de milan'),
-(56, 'légume', 'choux chinois'),
-(57, 'légume', 'choux-fleur'),
+(56, 'légume', 'chou chinois'),
+(57, 'légume', 'choux fleur'),
 (58, 'légume', 'brocoli'),
 (59, 'légume', 'chou romanesco'),
 (60, 'légume', 'choux de bruxelles'),
 (61, 'légume', 'épinard'),
 (62, 'légume', 'poireau'),
 (63, 'légume', 'laitue'),
-(64, 'légume', 'chicorée'),
 (65, 'légume', 'mâche'),
 (66, 'légume', 'roquette'),
 (67, 'légume', 'aubergine'),
 (68, 'légume', 'concombre'),
 (69, 'légume', 'cornichon'),
-(70, 'légume', 'courge'),
 (71, 'légume', 'potiron'),
 (72, 'légume', 'citrouille'),
 (73, 'légume', 'melon'),
 (74, 'légume', 'tomate'),
 (75, 'légume', 'piment'),
 (76, 'légume', 'poivron'),
-(77, 'légume', 'banane plantain'),
 (78, 'légume', 'betterave'),
 (79, 'légume', 'carotte'),
 (80, 'légume', 'courgette'),
 (81, 'légume', 'navet'),
 (82, 'légume', 'radis'),
-(83, 'légume', 'patate'),
-(84, 'légume', 'pomme de terre'),
-(85, 'légume', 'fève '),
+(83, 'féculent', 'patate douce'),
+(84, 'féculent', 'pomme de terre'),
+(85, 'féculent', 'fève '),
 (86, 'légume', 'haricot vert'),
-(87, 'légume', 'haricot blanc'),
-(88, 'légume', 'petit pois'),
+(87, 'féculent', 'haricot blanc'),
+(88, 'légume', 'petits pois'),
 (89, 'légume', 'ail'),
 (90, 'légume', 'échalote'),
 (91, 'légume', 'oignon'),
 (92, 'légume', 'ciboulette'),
-(93, 'légume', 'champignon'),
+(93, 'légume', 'champignons'),
 (94, 'fruit', 'cassis'),
 (95, 'fruit', 'ananas'),
 (96, 'légume', 'maïs'),
-(97, 'fruit', 'pastèque');
+(97, 'fruit', 'pastèque'),
+(98, 'féculent', 'haricot rouge'),
+(99, 'légume', 'chou blanc'),
+(100, 'légume', 'potimarron');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
