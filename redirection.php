@@ -49,7 +49,7 @@
               <br />
               <br />
               <label class="grand" for="tel"> Numero de telephone :</label>
-              <input type="tel" name="tel" id="tel" maxlength="10" minlength="10" placeholder="Ex :le 1"/>
+              <input type="tel" name="tel" id="tel" maxlength="10" minlength="10"/>
               <br />
               <br />
               <label class="grand" for="pass">Mot de passe :</label>
