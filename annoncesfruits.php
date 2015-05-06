@@ -57,13 +57,13 @@
 	Ajouter cette denrée à votre liste de course
 	</section>
 	<section>
-	<a href=""><img src="grenade.jpg" alt="/photo_fruit_legume/grenade" title="Cliquez ici pour voir les differentes ventes de grenades" /></a> </br>
+	<a href=""><img src="/photo_fruit_legume/grenade.jpg" alt="grenade" title="Cliquez ici pour voir les differentes ventes de grenades" /></a> </br>
 	<h3> GRENADES </h3>
 	<input type="checkbox" name="ListeGrenade" id="ListeGrenade" title="cette liste permet de vous rappeler ce que vous devez acheter"/>
 	Ajouter cette denrée à votre liste de course
 	</section>
 	<section>
-	<a href=""><img src="prune.jpg" alt="/photo_fruit_legume/prune" title="Cliquez ici pour voir les differentes ventes de prunes" /></a> </br>
+	<a href=""><img src="/photo_fruit_legume/prune.jpg" alt="prune" title="Cliquez ici pour voir les differentes ventes de prunes" /></a> </br>
 	<h3> PRUNES </h3>
 	<input type="checkbox" name="ListePrune" id="ListePrune" title="cette liste permet de vous rappeler ce que vous devez acheter"/>
 	Ajouter cette denrée à votre liste de course
