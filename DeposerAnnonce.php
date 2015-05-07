@@ -2,19 +2,18 @@
 <html>
 <head>
 <meta charset="utf-8" />   
-<link rel="Stylesheet" href="/css/Style_DeposerAnnonce.css" />
+
+<link rel="Stylesheet" href="/css/Style_deposerAnnonce.css" />
+
 <title> DREAMFIELD</title>
 </head>
 
 
 <body>
 
-<header>
-<?php include("include/header.php"); ?>
-</header>
-
-
-
+  <header>
+  <?php include("include/header.php"); ?>
+  </header>
 
 
 <div class="formulaire-depot">
@@ -218,13 +217,10 @@
 </div>
 
 
-
-
-
-
 <footer>
 <?php include("include/footer.php"); ?>
 </footer>
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script src="javascript/insverif.js"></script>
