@@ -24,7 +24,7 @@ echo 'Le jeu a bien été ajouté !';
 //$bdd = new PDO('mysql: host=localhost;dbname=dreamfield', 'root', '');
 
 // if (isset ($_POST['valider'])) {
-if (empty($_POST['prenom']) OR empty($_POST['nom']) OR empty($_POST['adresse']) OR empty($_POST['codepost']) OR empty($_POST['mail']) OR empty($_POST['tel']) OR empty($_POST['pass']) OR empty($_POST['passverif']) OR empty($_POST['conditions'])) 
+if (empty($_POST['prenom']) OR empty($_POST['nom']) OR empty($_POST['adresse']) OR empty($_POST['codepost']) OR empty($_POST['mail']) OR empty($_POST['tel']) OR empty($_POST['pass']) OR empty($_POST['passverif']) OR empty($_POST['conditions']) OR empty($_POST['ville'])) 
 	{
 		header('location: inscription.php?error=empty');
 	}
@@ -65,12 +65,11 @@ elseif ($_POST['pass'] != $_POST['passverif']) {
 	    	'date_inscription' => $date_inscription
 	        ));
 	    $req->closecursor();*/
-	    echo "<script type='text/javascript'>document.location.replace('connexion.php');</script>";
-	    $req = $bdd-> prepare('INSERT INTO utulisateurs(prenom, nom, adresse, codepost, mail, tel, pass, passverif, conditions) VALUES(?,?,?,?,?,?,?,?,?)');
-	    $req->execute(array($_POST['prenom'], $_POST['nom'], $_POST['adresse'], $_POST['codepost'],$_POST['mail'], $_POST['tel'], $_POST['pass'], $_POST['passverif'], $_POST['conditions']));
+	     echo "<script type='text/javascript'>document.location.replace('connexion.php');</script>";
+	    $req = $bdd-> prepare('INSERT INTO utilisateurs(prenom, nom, adresse, codepost, mail, tel, pass, passverif, conditions, ville) VALUES(?,?,?,?,?,?,?,?,?,?)');
+	    $req->execute(array($_POST['prenom'], $_POST['nom'], $_POST['adresse'], $_POST['codepost'],$_POST['mail'], $_POST['tel'], $_POST['pass'], $_POST['passverif'], $_POST['conditions'], $_POST['ville']));
 	    $req->closecursor();
-
-	}
+ 	}
     
 
 ?>
