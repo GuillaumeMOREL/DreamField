@@ -204,7 +204,7 @@
               <br />
               <br />
               <label for="troc">Si vous souhaitez échanger votre produit contre une autre denrée indiquez le nom du produit désiré:</label>
-              <input type="text" name="tric" id="troc" placeholder="Ex : Ouvert à toutes propositions" size="30"/>
+              <input type="text" name="troc" id="troc" placeholder="Ex : Ouvert à toutes propositions" size="30"/>
               
 
             
