@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8" />   
-<link rel="Stylesheet" href="/css/Style_DeposerAnnonce.css" />
+<link rel="Stylesheet" href="Style_DeposerAnnonce.css" />
 <title> DREAMFIELD</title>
 </head>
 
@@ -200,7 +200,11 @@
               <br />
               <br />
               <label for="prix"> Prix (€):</label>
-              <input type="number" name="prix" id="prix" class="champ" min="0"/>
+              <input type="number" name="prix" id="prix" min="0"/>
+              <br />
+              <br />
+              <label for="troc">Si vous souhaitez échanger votre produit contre une autre denrée indiquez le nom du produit désiré:</label>
+              <input type="text" name="tric" id="troc" placeholder="Ex : Ouvert à toutes propositions" size="30"/>
               
 
             
