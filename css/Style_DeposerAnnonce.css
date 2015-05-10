@@ -15,8 +15,9 @@ body{
 }
 
 textarea{
-	width:450px;
+	min-width:450px;
 	height: 150px;
+	max-width: 450px;
 }
 h6{
 	margin-top: -10px;

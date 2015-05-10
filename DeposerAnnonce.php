@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8" />   
-<link rel="Stylesheet" href="Style_DeposerAnnonce.css" />
+<link rel="Stylesheet" href="/css/Style_DeposerAnnonce.css" />
 <title> DREAMFIELD</title>
 </head>
 
@@ -27,21 +27,8 @@
 
   <form id="form" method="post" action="acceuil_final.php">
     <p>
-              Choisissez le type du produit:
               
-              <input type="radio" name="type" value="fruit" id="fruit" /><label for="fruit">fruit</label>
-              
-              <input type="radio" name="type" value="legume" id="legume" /><label for="legume">légume</label>
-
-              <input type="radio" name="type" value="féculent" id="féculent" /><label for="legume">féculent</label>
-              <br />
-              <br />
-
-
-
-
-
-              <label for="NomProduit">Selectionnez le nom de votre denrée</label><br /><br />
+            <label for="NomProduit">Selectionnez le nom de votre denrée</label><br /><br />
            
             <select name="NomProduit" id="NomProduit">
 
@@ -161,6 +148,8 @@
               
             </select>
 
+           
+
             <br />
             <br />
 
@@ -184,15 +173,13 @@
                   <option value="kg">Kg</option>
               </optgroup>
                    <optgroup label="Quantité" >
-                   <option value="quantite">Sans Unité  </option>    
+                   <option value="quantite"> Unité(s)  </option>    
               </optgroup>
               </select>
-
-              
               <br />
               <br />
-               <label for="remarque">Date d'expiration du produit<br/> <h6>(JJ/MM/AAAA)</h6> </label><br />
-               <input type="date" />
+              <label for="remarque">Date d'expiration du produit<br/> <h6>(JJ/MM/AAAA)</h6> </label><br />
+              <input type="date" name="date" id="date" maxlength="10" minlength="10"/>
               <br />
               <br />
               <label for="remarque">Ajouter une remarque/description sur votre produit</label><br /><br />
@@ -203,7 +190,9 @@
               <input type="number" name="prix" id="prix" min="0"/>
               <br />
               <br />
-              <label for="troc">Si vous souhaitez échanger votre produit contre une autre denrée indiquez le nom du produit désiré:</label>
+              <label for="troc">Si vous souhaitez échanger votre produit contre une autre denrée indiquez le produit désiré:</label>
+              <br />
+              <br />
               <input type="text" name="troc" id="troc" placeholder="Ex : Ouvert à toutes propositions" size="30"/>
               
 
@@ -231,13 +220,10 @@
 </footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script src="javascript/insverif.js"></script>
+  <script src="/javascript/depotverif.js"></script>
+     <script type="text/javascript">
+
 </body>
 
 
 </html>
-
-<!-- Questions:
-c est quoi les <script>?
-Comment faire la vérif du remplissage des champs?
-Comment envoyer ca a la bdd?
