@@ -11,7 +11,8 @@ body{
 	background-color: #C3D6DA;
 	padding:50px;
 	margin: 0 auto;
-	margin-top: 150px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
 textarea{
