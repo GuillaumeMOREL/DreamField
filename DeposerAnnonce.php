@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8" />   
-<link rel="Stylesheet" href="/css/Style_DeposerAnnonce.css" />
+<link rel="Stylesheet" href="css/Style_DeposerAnnonce.css" />
 <title> DREAMFIELD</title>
 </head>
 
@@ -167,6 +167,7 @@
 
 
               <select name="PoidsQuant" id="PoidsQuant">
+              <option>Selectionner l'unité</option>
               <optgroup label="Poids">
                   <option value="mg">mg</option>
                   <option value="g">g</option>
@@ -176,9 +177,15 @@
                    <option value="quantite"> Unité(s)  </option>    
               </optgroup>
               </select>
+              
+
+
+
+
+
               <br />
               <br />
-              <label for="remarque">Date d'expiration du produit<br/> <h6>(JJ/MM/AAAA)</h6> </label><br />
+              <label for="remarque">Date d'expiration du produit<br/> <em>(JJ/MM/AAAA)</em> </label><br />
               <input type="date" name="date" id="date" maxlength="10" minlength="10"/>
               <br />
               <br />
@@ -186,8 +193,9 @@
               <textarea name="remarque" id="remarque"></textarea>
               <br />
               <br />
-              <label for="prix"> Prix (€):</label>
-              <input type="number" name="prix" id="prix" min="0"/>
+              <label for="prix" class="choix"> Prix (€): </label>
+              <input type="number" name="prix" id="prix" min="0"  class="choix"/>
+              <div id="resultat" class="choix"></div>
               <br />
               <br />
               <label for="troc">Si vous souhaitez échanger votre produit contre une autre denrée indiquez le produit désiré:</label>
@@ -212,16 +220,13 @@
 
 
 
-
-
-
 <footer>
 <?php include("include/footer.php"); ?>
 </footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script src="/javascript/depotverif.js"></script>
-     <script type="text/javascript">
+  <script src="javascript/depotverif.js"></script>
+  <script type="text/javascript"></script>
 
 </body>
 

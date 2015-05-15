@@ -38,9 +38,9 @@
       }
     });  
 
-
-
-
-
-
   });
+
+$("#PoidsQuant").change(function() {
+    if ( $("#PoidsQuant").val() == "mg" || $("#PoidsQuant").val() == "g" || $("#PoidsQuant").val() == "kg"){ $("#resultat").text("le Kg"); }
+    if ( $("#PoidsQuant").val() == "quantite" ){ $("#resultat").text("l'unité"); }
+});
